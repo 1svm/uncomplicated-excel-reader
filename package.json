@@ -1,0 +1,35 @@
+{
+  "name": "uncomplicated-excel-reader",
+  "version": "1.0.0",
+  "description": "Convert Excel to JSON",
+  "homepage": "https://github.com/shivammalhotraone/uncomplicated-excel-reader/",
+  "main": "./lib/convert-excel-to-json.js",
+  "bin": "./bin/cli.js",
+  "author": {
+    "name": "Shivam Malhotra",
+    "email": "shivammalhotraone@gmail.com",
+    "url": "https://github.com/shivammalhotraone/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shivammalhotraone/uncomplicated-excel-reader.git"
+  },
+  "keywords": [
+    "excel to json",
+    "convert excel"
+  ],
+  "scripts": {
+    "test": "mocha ./tests -b"
+  },
+  "dependencies": {
+    "argparse": "^1.0.2",
+    "magicli": "0.0.8",
+    "node.extend": "^2.0.2",
+    "xlsx": "^0.12.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^5.2.0"
+  }
+}
